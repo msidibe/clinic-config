@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 echo "Rewriting Bahmni Config at /usr/local/bahmni_config"

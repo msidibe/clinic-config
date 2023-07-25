@@ -1,43 +1,43 @@
 {
   "homePage": {
-    "header_text": "<b>WELCOME TO<br />BAHMNI EMR FOR CLINICS",
-    "logo": "/bahmni/images/bahmniLogoFull.png",
+    "header_text": "<b>DOSSIERS MÉDICAUX ÉLECTRONIQUES (DME)<br />DE LA CLINIQUE NOUDEL",
+    "logo": "/bahmni_config/images/visual_clinique_noudel_white.png",
     "title_text": " "
   },
   "loginPage": {
-    "logo": "/bahmni/images/bahmniLogoFull.png",
-    "showHeaderText": true,
+    "logo": "/bahmni_config/images/logo_clinique_noudel_white.jpg",
+    "showHeaderText": false,
     "showTitleText": false
   },
   "helpLink": {
-    "url": "https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Home"
+    "url": "https://clinique-noudel"
   },
   "landingPage": [
     {
       "enabled": true,
       "name": "clinicalService",
-      "title": "Clinical Service",
+      "title": "Services de Consultation",
       "logo": "/bahmni/images/app.png",
       "link": "/bahmni/home"
     },
     {
       "enabled": false,
       "name": "openelis",
-      "title": "Laboratory",
+      "title": "Laboratoire",
       "logo": "/bahmni/images/lab.png",
       "link": "/openelis"
     },
     {
       "enabled": false,
       "name": "odoo",
-      "title": "Stock Inventory & Billing",
+      "title": "Gestion des stocks et facturation",
       "logo": "/bahmni/images/bills.png",
       "linkPrefix": "erp"
     },
     {
       "enabled": true,
       "name": "crater",
-      "title": "Payment & Billing",
+      "title": "Gestion des Factures et Paiements",
       "logo": "/bahmni/images/bills.png",
       "linkPrefix": "payments"
     },
@@ -51,14 +51,14 @@
     {
       "enabled": false,
       "name": "dcm",
-      "title": "Radiology",
+      "title": "Radiologie",
       "logo": "/bahmni/images/pac.png",
       "link": "/dcm4chee-web3"
     },
     {
       "enabled": true,
       "name": "metabase",
-      "title": "Analytics",
+      "title": "Analyse de Données",
       "logo": "/bahmni/images/analytics.png",
       "link": "/metabase"
     }

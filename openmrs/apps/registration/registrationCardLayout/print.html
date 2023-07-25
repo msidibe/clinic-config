@@ -26,7 +26,7 @@
                             </li>
                         </ul>
                         <div class="caution">
-                            <h3 class="print-table-header">Caution</h3>
+                            <h3 class="print-table-header">Attention</h3>
                             <p>
                                 {{ "REGISTRATION_SMOKING_INJURIOUS_TEXT_KEY" | translate }}
                             </p>
@@ -40,7 +40,7 @@
                 <tr>
                     <td class="logo">
                         <p>
-                            <img src="/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmniLogo.png" style="width: 12mm; height: 12mm; "/>
+                            <img src="/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/logo_clinique_noudel_white.png" style="width: 12mm; height: 12mm; "/>
                         </p>
                     </td>
                     <td class="print-table-right-header">
@@ -65,7 +65,7 @@
                 <!-- All the header details below (Dated, Identifier, Name, etc.) can be given in preferable languages -->
                 <tr>
                     <td class="registrationCard-details-name">
-                        <span class="card-text">Dated</span>
+                        <span class="card-text">Date</span>
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>{{patient.registrationDate | bahmniDate}} </td>
@@ -79,7 +79,7 @@
                 </tr>
                 <tr>
                     <td class="registrationCard-details-name">
-                        <span class="card-text">Name</span>
+                        <span class="card-text">Nom</span>
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>
@@ -95,14 +95,14 @@
                 </tr>
                 <tr>
                     <td class="registrationCard-details-name">
-                        <span class="card-text">Gender</span>
+                        <span class="card-text">Sex</span>
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>{{patient.gender}} </td>
                 </tr>
                 <tr>
                     <td class="registrationCard-details-name">
-                        <span class="card-text">Address</span>
+                        <span class="card-text">Adresse</span>
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>

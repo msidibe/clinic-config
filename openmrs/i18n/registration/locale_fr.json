@@ -10,7 +10,7 @@
   "REGISTRATION_AGE_ERROR_KEY":"L'âge doit être une valeur positive",
   "REGISTRATION_TELEPHONE_NUMBER_ERROR_KEY":"Le numéro de téléphone doit comporter au moins 6 chiffres.",
   "REGISTRATION_CASTE_TEXT_ERROR_KEY":"La caste ne doit contenir que des caractères alphanumériques",
-  "REGISTRATION_BRING_CARD_TEXT_KEY":"Il est très important d'apporter la carte à l'hôpital.",
+  "REGISTRATION_BRING_CARD_TEXT_KEY":"Il est très important d'apporter la carte à la clinique.",
   "REGISTRATION_TAKE_MEDICINES_TEXT_KEY": "Prenez les médicaments selon les instructions du médecin.",
   "REGISTRATION_TIMINGS_TEXT_KEY":"Inscription Les horaires sont de 8:30 à 12:00.",
   "REGISTRATION_OPD_DAYS_TEXT_KEY" : "Les jours de la DPO sont le lundi, le mercredi et le vendredi.",
@@ -21,5 +21,6 @@
   "REGISTRATION_INSTITUTE_ADDRESS": "Ganiari, District - Bilaspur",
   "FEE_INFORMATION_LOCALE_KEY": "Informations sur les frais",
   "NUTRITIONAL_VALUES_LOCALE_KEY": "Valeurs nutritionnelles",
-  "REGISTRATION_PRINT_WITH_BARCODE": "Imp<u>r</u>imier de code à barres"
+  "REGISTRATION_PRINT_WITH_BARCODE": "Imp<u>r</u>imier de code à barres",
+  "CLINICAL_YEARS_TRANSLATION_KEY": "ans"
 }
